@@ -6,6 +6,9 @@
     @mouseleave="onMouseLeave"
     @mouseenter="onMouseEnter"
   >
+  <div class ="appImage">
+
+  </div>
     <slot name="header" />
     <div
       class="vsm--scroll-wrapper"
@@ -271,5 +274,8 @@ export default {
 </script>
 
 <style lang="scss">
+.appImage{
+height: 100px; width:100%;
+}
 @import '../scss/vue-sidebar-menu';
 </style>
